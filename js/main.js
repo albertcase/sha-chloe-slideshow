@@ -212,7 +212,8 @@ LoadFn(LoadingImg , function (){
 		accfun();
 	} , 200)
 } , function ( p ){
-	$('#loading').html('<br />' + p + '%')
+	$('.loading-mask').stop().css({"width":p+"%"});
+	//$('.loading-mask').html('<br />' + p + '%')
 });
 
 
