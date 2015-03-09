@@ -221,7 +221,7 @@ p{
 .loading-logo{
 	width:260px;
 	height: 200px;
-	background: url("../images/logo-mask.png") center no-repeat;
+	background: url("../images/logo-mask.png") left center no-repeat;
 	background-size: 260px auto;
 	display:inline-block;
 	position:absolute;
@@ -233,12 +233,13 @@ p{
 .loading-mask{
 	width:0;
 	height: 200px;
-	background: url("../images/loading.png") center no-repeat;
+	background: url("../images/loading.png") left center no-repeat;
 	background-size: 260px auto;
 	display:inline-block;
 	position:absolute;
 	left: 0;
 	top: 0;
+	overflow: hidden;
 }
 
 
