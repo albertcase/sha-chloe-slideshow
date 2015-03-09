@@ -85,10 +85,9 @@ p{
 /* ------ nav ------ */
 
 .burger {
-	width: 8%;
-	height: 20px;
-	position: relative;
-	position: absolute;
+	width: 12%;
+	height: 27px;
+	position: fixed;
 	left: 1em;
 	top: 1em;
 	z-index: 150;
@@ -127,7 +126,7 @@ display: block;
 
 .menu{ 
 	width: 30%;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
 	z-index: 150;
@@ -223,3 +222,29 @@ display: block;
 #fullpage{
 	opacity: 0;
 }
+
+#video{
+	background:#fff;
+	text-align: center;
+}
+#video dl{
+	width:90%;
+	display: inline-block;
+}
+
+#video dd{
+	padding:1em 0;
+}
+
+#video dt{
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+

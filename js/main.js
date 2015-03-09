@@ -256,7 +256,7 @@ function accfun(){
 
 
 	$('#fullpage').fullpage({
-			sectionsColor: ['#000', '#000', '#000', '#000', '#000','#000','#000','#000'],
+			sectionsColor: ['#000', '#000', '#000', '#000', '#000','#fff'],
 			anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage'],    // 'lastPage'
 			menu: '#menu',
 			scrollingSpeed: 600,
