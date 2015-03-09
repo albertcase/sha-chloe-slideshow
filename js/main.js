@@ -262,7 +262,8 @@ function accfun(){
 			menu: '#menu',
 			scrollingSpeed: 600,
 			//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
-			css3: true
+			css3: true,
+			slidesNavigation: true
 	});
 
 	$("#fullpage").animate({"opacity":1},600);
