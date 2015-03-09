@@ -85,8 +85,8 @@ p{
 /* ------ nav ------ */
 
 .burger {
-	width: 12%;
-	height: 27px;
+	width: 18%;
+	height: 50px;
 	position: fixed;
 	left: 1em;
 	top: 1em;
@@ -153,9 +153,19 @@ display: block;
 
 	opacity: 0;
 }
+
 .menu li a{
 	color:#fff;
 }
+
+.menu li.active{
+	background:#fff;
+}
+
+.menu li.active a{
+	color:#c69e63;
+}
+
 
 .magnifier{
 	width: 6%;
@@ -212,13 +222,6 @@ display: block;
 
 
 
-
-
-
-
-
-
-
 #fullpage{
 	opacity: 0;
 }
@@ -228,17 +231,46 @@ display: block;
 	text-align: center;
 }
 #video dl{
-	width:90%;
+	width:86%;
 	display: inline-block;
 }
 
-#video dd{
-	padding:1em 0;
+#video dt{
+	height:400px;
 }
 
-#video dt{
+#video dd{
+	padding:2em 0;
 	text-align: left;
 }
+
+
+.fp-controlArrow{
+	position: absolute;
+	top:50%;
+	margin:-20px 0 0 0;
+}
+
+
+.fp-controlArrow.fp-next{
+	background: url("../images/arr-r.png") no-repeat;
+	border:none;
+	width:40px;
+	height:80px;
+	background-size: 100% auto;
+}
+
+.fp-controlArrow.fp-prev{
+	background: url("../images/arr-l.png") no-repeat;
+	border:none;
+	width:40px;
+	height:80px;
+	background-size: 100% auto;
+}
+
+
+
+
 
 
 

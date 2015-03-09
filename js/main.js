@@ -32,9 +32,11 @@ document.addEventListener('touchmove' , function (ev){
 function reduction_fun(){
 	$(".menu li").each(function(){
 		$(this).animate({opacity : 0},600,function(){
+			// $(this).addClass("hover");
+			// $(".menu li").removeClass("hover");
 			$(".menu").hide();
 			$(".burger").animate({"left":"1em"});
-		}).css("transform",'translate3d(95deg,0,-50px)');
+		});
 	})
 
 	$(".magnifier-text").slideUp();
@@ -252,15 +254,14 @@ function accfun(){
 	$("#guests").empty().html(guestsHtml);
 	$("#looks").empty().html(looksHtml);
 
-	console.log(detailsHtml)
 
 
 	$('#fullpage').fullpage({
 			sectionsColor: ['#000', '#000', '#000', '#000', '#000','#fff'],
-			anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage'],    // 'lastPage'
+			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage'],    // 'lastPage'
 			menu: '#menu',
 			scrollingSpeed: 600,
-			easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+			//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
 			css3: true
 	});
 
