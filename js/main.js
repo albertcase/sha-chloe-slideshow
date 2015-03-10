@@ -4,7 +4,7 @@
 		$(".burger").animate({"left":"-100px"},function(){
 			$(".menu").show();
 			$(".menu li").each(function(){
-				$(this).animate({"opacity" : 1});
+				$(this).stop().animate({"opacity" : 1});
 			})
 		});
 		event.stopPropagation();
@@ -32,7 +32,7 @@ document.addEventListener('touchmove' , function (ev){
 
 function reduction_fun(){
 	$(".menu li").each(function(){
-		$(this).animate({opacity : 0},600,function(){
+		$(this).stop().animate({opacity : 0},600,function(){
 			// $(this).addClass("hover");
 			// $(".menu li").removeClass("hover");
 			$(".menu,#mask").hide();
@@ -51,6 +51,10 @@ $(document).click(function(event){
 	event.stopPropagation();
 })
 
+$("#mask").click(function(event){
+	reduction_fun();
+	event.stopPropagation();
+})
 
 
 
