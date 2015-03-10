@@ -286,7 +286,7 @@ function swipeFun(){
       window.mySwipe = new Swipe(document.getElementById('slider'), {
       startSlide: 0,
       auto: false, //设置自动切换时间，单位毫秒
-      continuous: true,
+      continuous: false,
       disableScroll: false,
       stopPropagation: false
       })
