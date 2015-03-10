@@ -480,6 +480,8 @@ p{
 nav{
 	padding: 2em 0;
 	display: inline-block;
+	width: 100%;
+	float: left;
 }
 .position li{
 	width: 6px;
