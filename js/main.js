@@ -1,3 +1,5 @@
+window.location.hash= '';
+
 
 	$(".burger").click(function(event){
 		$("#mask").fadeIn();
@@ -209,7 +211,7 @@ LoadingImg.push('upload/guests/guest31.jpg');
 
 
 
-// if(!window.location.hash){
+if(!window.location.hash){
 	LoadFn(LoadingImg , function (){
 		setTimeout( function (){
 			$('#loading').fadeOut();
@@ -220,10 +222,10 @@ LoadingImg.push('upload/guests/guest31.jpg');
 		$('.loading-mask').css({"width":p+"%"});
 		//$('.loading-mask').html('<br />' + p + '%')
 	});
-// }else{
-// 	$('#loading').hide();
-// 	accfun();
-// }
+}else{
+	// $('#loading').hide();
+	// accfun();
+}
 
 
 
