@@ -67,7 +67,7 @@ function reduction_fun(){
 	$(".menu,#mask").hide();
 	$(".burger").animate({"left":"1em"});
 
-	$(".magnifier-text").hide();
+	$(".magnifier-text").slideUp();
     $(".magnifier").stop().animate({"right":"3em","opacity":1});
 }
 
@@ -305,7 +305,7 @@ function accfun(){
 
 	$(".magnifier").click(function(event){
     	$(this).stop().animate({"right":"4em","opacity":0},100,function(){
-    		$(this).siblings(".magnifier-text").show();
+    		$(this).siblings(".magnifier-text").slideDown();
     	})
     	
     	event.stopPropagation();
