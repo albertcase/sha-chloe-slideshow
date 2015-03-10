@@ -209,20 +209,21 @@ LoadingImg.push('upload/guests/guest31.jpg');
 
 
 
-
-
-LoadFn(LoadingImg , function (){
-	setTimeout( function (){
-		$('#loading').fadeOut();
-		$(".arr").fadeIn();
-		accfun();
-	} , 200)
-} , function ( p ){
-	$('.loading-mask').css({"width":p+"%"});
-	//$('.loading-mask').html('<br />' + p + '%')
-});
-
-
+if(!window.location.hash){
+	LoadFn(LoadingImg , function (){
+		setTimeout( function (){
+			$('#loading').fadeOut();
+			$(".arr").fadeIn();
+			accfun();
+		} , 200)
+	} , function ( p ){
+		$('.loading-mask').css({"width":p+"%"});
+		//$('.loading-mask').html('<br />' + p + '%')
+	});
+}else{
+	$('#loading').hide();
+	accfun();
+}
 
 
 
@@ -260,8 +261,6 @@ function accfun(){
 	$("#backstage").empty().html(backstageHtml);
 	$("#guests").empty().html(guestsHtml);
 	$("#looks").empty().html(looksHtml);
-
-
 
 	$('#fullpage').fullpage({
 			sectionsColor: ['#000', '#000', '#000', '#000', '#000','#fff'],

@@ -152,7 +152,7 @@ p{
 	display: none;
 }
 .menu li{
-	padding: 0.8em 0;
+	padding: 1.4em 0;
 	text-align: center;
 	color: #fff;
 	font-size: 1em;
@@ -184,6 +184,7 @@ p{
 	position: absolute;
 	left: 0; 
 	top:0;
+	line-height: 42px;
 }
 
 .menu li.active{
