@@ -515,9 +515,10 @@ nav{
     position: fixed;
     z-index: 999;
     background: #fffdfd url("../images/heng.png") no-repeat center;
-    background-size: 40% auto;
+    background-size: 70% auto;
     top: 0;
     left: 0;
+    display: none;
 }
 
 
