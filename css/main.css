@@ -289,6 +289,7 @@ p{
 #video dt{
 	height:200px;
 	border:2px #c89e63 solid;
+	display: inline-block;
 }
 
 #video dd{
