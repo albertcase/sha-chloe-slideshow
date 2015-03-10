@@ -283,11 +283,11 @@ p{
 	text-align: center;
 }
 #video dl{
-	width:86%;
+	width:80%;
 	position: absolute;
 	left: 50%;
 	top:6em;
-	margin: 0 0 0 -43%;
+	margin: 0 0 0 -40%;
 }
 
 #video dt{
@@ -295,7 +295,7 @@ p{
 	border:2px #c89e63 solid;
 	display: inline-block;
 	position: relative;
-	margin: 1em 0;
+	margin: 1em 0 0 0;
 }
 
 #video dd{
@@ -478,7 +478,7 @@ p{
 }
 
 nav{
-	padding: 2em 0;
+	padding: 1em 0;
 	display: inline-block;
 	width: 100%;
 	float: left;
