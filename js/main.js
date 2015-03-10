@@ -344,7 +344,7 @@ function accfun(){
 			detailsHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("guests")>0){
 			guestnum++;
-			guestsHtml+="<div class='slide'><span class='model_name'>'"+modelname[guestnum]+"'</span><img src='"+key+"' style='width:109%' /></div>"
+			guestsHtml+="<div class='slide'><span class='model_name'>"+modelname[guestnum]+"</span><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("looks")>0){
 			looknum++;
 			looksHtml+="<div class='slide'><div class='magnifier-text'><p>"+returnfun(looknum)+"</p></div><span class='magnifier' title='"+looknum+"'><img src='../images/magnifier.png' style='width:30%' /></span><img src='"+key+"' style='width:109%' /></div>"
