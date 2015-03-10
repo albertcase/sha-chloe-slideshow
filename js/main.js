@@ -130,7 +130,7 @@ document.addEventListener('touchmove' , function (ev){
 
 
 function reduction_fun(){
-	$(".menu,#mask").hide();
+	$(".menu,#mask").fadeOut();
 	$(".burger").animate({"left":"1em"});
 
 	$(".magnifier-text").slideUp();
