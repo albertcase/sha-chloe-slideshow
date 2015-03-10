@@ -335,7 +335,7 @@ p{
 
 
 #video .fp-controlArrow{
-	/*top:20%;*/
+	top:20%;
 }
 
 #video .fp-controlArrow.fp-next{
@@ -358,7 +358,7 @@ p{
 
 
 
-.fp-slidesNav{
+/*.fp-slidesNav{
 	display: none;
 }
 
@@ -376,7 +376,7 @@ p{
 
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span{
 	background:#c89e63;
-}
+}*/
 
 
 

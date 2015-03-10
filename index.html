@@ -21,6 +21,7 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/PxLoader.js"></script>
 <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="js/swipe.js"></script>
 <script type="text/javascript">
 // 	$(document).ready(function() {
 		
@@ -84,26 +85,46 @@
 	<div class="section" id="video">
 		<a href="javascript:;" class="logo"><img src="images/logo.png" width="35%" /></a>
 		<div class="video-slide">
-			<div class="slide">
-				<dl>
-					<dt><iframe height="100%" width="100%" src="http://player.youku.com/embed/XOTA2MTc3ODA4" frameborder=0 allowfullscreen></iframe></dt>
-					<dd>Chloé 2015 秋冬时装秀将于北京时间3月8日（本周日）晚上23点现场直播，邀您届时登录chloe.com观看。</dd>
-				</dl>
+
+			<div id="slider" class='swipe'>
+				<div class='swipe-wrap'>
+				<div>
+					<dl>
+						<dt><iframe height="100%" width="100%" src="http://player.youku.com/embed/XOTA2MTc3ODA4" frameborder=0 allowfullscreen></iframe></dt>
+						<dd>Chloé 2015 秋冬时装秀将于北京时间3月8日（本周日）晚上23点现场直播，邀您届时登录chloe.com观看。</dd>
+					</dl>
+			    </div>
+				<div>
+					<dl>
+						<dt><iframe height="100%" width="100%" src="http://player.youku.com/embed/XOTA2ODAxNzYw" frameborder=0 allowfullscreen></iframe></dt>
+						<dd>明日大秀#2015秋冬时装秀#前，Chloé 创意总监 Clare Waight Keller 在为大秀调整最后的细节。</dd>
+				    </dl>
+			    </div>
+				<div>
+					<dl>
+						<dt><iframe height="100%" width="100%" src="http://player.youku.com/embed/XOTA3NTAxNTUy" frameborder=0 allowfullscreen></iframe></dt>
+						<dd>北京时间今晚 23 点，2015 秋冬时装秀即将在巴黎大皇宫开启，邀您届时登录 chloe.com，成为头排观秀嘉宾，欣赏大秀。</dd>
+				    </dl>
+				</div>
+				<div><img src="images/kv4.jpg" style="width:100%;" /></div>
+			</div>
+			</div>
+			<div class="changeArr">
+				<a href="javascript:;" class="arrprev" data-rel="none" onclick='mySwipe.prev()'><img src="images/arr_l.png" style="width:100%;" /></a> 
+				<a href="javascript:;" class="arrnext" data-rel="none" onclick='mySwipe.next()'><img src="images/arr_r.png" style="width:100%;" /></a>
 			</div>
 
-			<div class="slide">
-				<dl>
-					<dt><iframe height="100%" width="100%" src="http://player.youku.com/embed/XOTA2ODAxNzYw" frameborder=0 allowfullscreen></iframe></dt>
-					<dd>明日大秀#2015秋冬时装秀#前，Chloé 创意总监 Clare Waight Keller 在为大秀调整最后的细节。</dd>
-				</dl>
-			</div>	
-			
-			<div class="slide">
-				<dl>
-					<dt><iframe height="100%" width="100%" src="http://player.youku.com/embed/XOTA3NTAxNTUy" frameborder=0 allowfullscreen></iframe></dt>
-					<dd>北京时间今晚 23 点，2015 秋冬时装秀即将在巴黎大皇宫开启，邀您届时登录 chloe.com，成为头排观秀嘉宾，欣赏大秀。</dd>
-				</dl>		
-			</div>
+			<nav>
+			<ul id="position">
+				<li class="on"></li>
+				<li class=""></li>
+				<li class=""></li>
+				<li class=""></li>
+			</ul>
+			</nav>
+
+
+
 		</div>
 
 

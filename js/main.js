@@ -269,7 +269,7 @@ function accfun(){
 			scrollingSpeed: 600,
 			//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
 			css3: true,
-			slidesNavigation: true
+			slidesNavigation: false
 	});
 
 	$("#fullpage").animate({"opacity":1},600);
@@ -280,10 +280,30 @@ function accfun(){
 
 
 
+function swipeFun(){
+      window.mySwipe = new Swipe(document.getElementById('slider'), {
+      startSlide: 0,
+      auto: false, //设置自动切换时间，单位毫秒
+      continuous: true,
+      disableScroll: false,
+      stopPropagation: false,
+      callback: function(index, elem) {
+      var i = bullets.length;
+      while (i--) {
+        bullets[i].className = ' ';
+      }
+      bullets[index].className = 'on';
+        $(".photoInfo").removeClass("hover").css("display","none");
+        $(".photoInfo").eq(index).addClass("hover").css("display","inline-block");
+      },
+        transitionEnd: function(index, elem) {}
+      });
+      var bullets = document.getElementById('position').getElementsByTagName('li');
+
+}
 
 
-
-
+swipeFun()
 
 
 
