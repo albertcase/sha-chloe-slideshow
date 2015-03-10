@@ -547,5 +547,15 @@ nav{
 
 
 
-
+.model_name{ 
+	width:100%;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 2em;
+	color: #fff;
+	background: rgba(0,0,0,0.35);
+	position: absolute;
+	left: 0;
+	bottom:3em;
+}
 
