@@ -116,6 +116,7 @@ p{
 	position: absolute;
 	background: #fff;
 	display: block;
+	box-shadow:0 5px 10px #999;
 }
 
 .burger_con .top {
@@ -424,6 +425,9 @@ p{
 }
 
 
-
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	width:6px;
+	height:6px;
+}
 
 
