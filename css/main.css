@@ -229,7 +229,6 @@ p{
 
 
 .slide{
-	width: 100%;
 	position: relative;
 	overflow: hidden;
 	height:100%;
@@ -304,9 +303,7 @@ p{
 	color: #c79c60
 }
 
-.fp-tableCell{
-	vertical-align: top;
-}
+
 
 #video .fp-tableCell{
 	vertical-align: top;
