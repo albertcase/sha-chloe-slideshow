@@ -279,7 +279,7 @@ p{
 #video dl{
 	width:86%;
 	display: inline-block;
-	margin: 0 0 0 0;
+	margin: -15em 0 0 0;
 }
 
 #video dt{
@@ -368,7 +368,7 @@ p{
 .logo{
 	width: 100%;
 	text-align: center;
-	margin: 89px 0 90px 0;
+	margin: 2em 0;
 	display: inline-block;
 }
 
