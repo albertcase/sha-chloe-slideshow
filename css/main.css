@@ -208,11 +208,13 @@ p{
 
 
 .magnifier{
-	width: 8%;
+	width: 30%;
 	position: absolute;
-	right:5em;
+	right:3em;
 	bottom:10em;
 	z-index: 9;
+	text-align: center;
+	padding: 25px 0;
 }
 
 
@@ -222,7 +224,7 @@ p{
 	text-align: center;
 	position: absolute;
 	left: 0;
-	bottom: 12em;
+	bottom: 9em;
 	z-index: 9;
 	display: none;
 }

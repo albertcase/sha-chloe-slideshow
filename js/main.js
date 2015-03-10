@@ -279,7 +279,7 @@ function accfun(){
 			guestsHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("looks")>0){
 			looknum++;
-			looksHtml+="<div class='slide'><div class='magnifier-text'><p>"+returnfun(looknum)+"</p></div><span class='magnifier'><img src='../images/magnifier.png' style='width:100%' /></span><img src='"+key+"' style='width:109%' /></div>"
+			looksHtml+="<div class='slide'><div class='magnifier-text'><p>"+returnfun(looknum)+"</p></div><span class='magnifier'><img src='../images/magnifier.png' style='width:30%' /></span><img src='"+key+"' style='width:109%' /></div>"
 		}
 	})
 	
