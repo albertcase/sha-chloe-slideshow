@@ -5,6 +5,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
     margin: 0;
+    font-family: "SimSun";
 }
 a{
 	text-decoration:none;
@@ -279,7 +280,10 @@ p{
 }
 #video dl{
 	width:86%;
-	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top:6em;
+	margin: 0 0 0 -43%;
 }
 
 #video dt{
@@ -291,6 +295,11 @@ p{
 	padding:3em 0;
 	text-align: left;
 	color: #c79c60
+}
+
+
+#video .fp-tableCell{
+	vertical-align: top;
 }
 
 
@@ -350,7 +359,7 @@ p{
 #video .fp-slidesNav{
 	display: inline-block;
 	bottom:auto;
-	top:22.5em;
+	top:19em;
 }
 
 
