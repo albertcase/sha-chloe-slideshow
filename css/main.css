@@ -116,7 +116,7 @@ p{
 	position: absolute;
 	background: #fff;
 	display: block;
-	box-shadow:0 5px 10px #999;
+	box-shadow:0 0 20px #c89e63;
 }
 
 .burger_con .top {
