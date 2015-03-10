@@ -1,3 +1,43 @@
+var looksInfo = {
+
+	"l1" : "1.,2.,5.,4.,10,33,21",
+	"l2" : "24,26,28,6.,16,23,22,20",
+	"l3" : "15,17,7.,31,14,19,25,13,29",
+	"l4" : "11,39,08,18,37",
+	"l5" : "9.,3.,32",
+	"l6" : "12,34,35,38,40,42,43",
+	"l7" : "23,30,36,41,44,45"
+}
+
+
+function returnfun(a){
+	if(looksInfo.l1.indexOf(a) > 0){
+		return "以女性浪漫和清新田园风情为灵感基调，沿袭毫无刻意的法式时装精神，Chloé打造出新一季刚柔并济的活力女性形象。"
+	}
+	if(looksInfo.l2.indexOf(a) > 0){
+		return "散发女性意味的紫罗兰、米黄、矢车菊蓝与深色海军蓝、象牙白以及棕红色无间交织，在对比间赋予该系列时装灵动质感。"
+	}
+	if(looksInfo.l3.indexOf(a) > 0){
+		return "立体触感的面料贯穿始终，从柔软的格纹绒呢、挺阔的麦尔登呢、复古灯芯绒到浓密羊毛、精致暗色蟒蛇皮，以及浪漫的真丝绉和细腻蕾丝。"
+	}
+	if(looksInfo.l4.indexOf(a) > 0){
+		return "微微耸起的肩部细节，立体的剪裁，外套单品勾勒出新一季的加长廓形。加宽的前襟翻领设计、军装元素则平衡了蕾丝点缀丝绸释放出的女性柔美。"
+	}
+	if(looksInfo.l5.indexOf(a) > 0){
+		return "短小精干的马甲为飘逸的低领剪裁衬衫注入了率性和洒脱，与之搭配的花呢短裤与长裙更显时髦精致。"
+	}
+	if(looksInfo.l6.indexOf(a) > 0){
+		return "极富层次感的绉纱长裙与长裤周身四处以垂坠的棉绳点缀。"
+	}
+	if(looksInfo.l7.indexOf(a) > 0){
+		return "色彩鲜艳的拼接图案装点了细羊毛针织衫、丝绒面料上的精致提花则如冬季花园一般，散发令人难以抗拒的诱惑。"
+	}
+}
+
+
+
+
+
 window.location.hash= '';
 
 
@@ -11,13 +51,7 @@ window.location.hash= '';
 
 
 
-    $(".magnifier").click(function(event){
-    	$(this).stop().animate({"right":"4em","opacity":0},100,function(){
-    		$(this).siblings(".magnifier-text").slideDown();
-    	})
-    	
-    	event.stopPropagation();
-    })
+    
 
 	
 
@@ -33,13 +67,13 @@ function reduction_fun(){
 	$(".menu,#mask").hide();
 	$(".burger").animate({"left":"1em"});
 
-	$(".magnifier-text").slideUp();
+	$(".magnifier-text").hide();
     $(".magnifier").stop().animate({"right":"5em","opacity":1});
 }
 
 
 
-$(document).click(function(event){
+$(document).mousedown(function(event){
 	reduction_fun();
 	event.stopPropagation();
 })
@@ -231,10 +265,10 @@ var backstageHtml = "";
 var detailsHtml = "";
 var guestsHtml = "";
 var looksHtml = "";
-
+var looknum = 0;
 function accfun(){
 
-	$.map(LoadingImg,function(key){
+	$.map(LoadingImg,function(key,n){
 		if(key.indexOf("acc")>0){
 			accHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("backstage")>0){
@@ -244,7 +278,8 @@ function accfun(){
 		}else if(key.indexOf("guests")>0){
 			guestsHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("looks")>0){
-			looksHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
+			looknum++;
+			looksHtml+="<div class='slide'><div class='magnifier-text'><p>"+returnfun(looknum)+"</p></div><span class='magnifier'><img src='../images/magnifier.png' style='width:100%' /></span><img src='"+key+"' style='width:109%' /></div>"
 		}
 	})
 	
@@ -266,6 +301,15 @@ function accfun(){
 	});
 
 	$("#fullpage").animate({"opacity":1},600);
+
+
+	$(".magnifier").click(function(event){
+    	$(this).stop().animate({"right":"4em","opacity":0},100,function(){
+    		$(this).siblings(".magnifier-text").show();
+    	})
+    	
+    	event.stopPropagation();
+    })
 }
 
 
