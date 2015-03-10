@@ -214,6 +214,7 @@ LoadingImg.push('upload/guests/guest31.jpg');
 LoadFn(LoadingImg , function (){
 	setTimeout( function (){
 		$('#loading').fadeOut();
+		$(".arr").fadeIn();
 		accfun();
 	} , 200)
 } , function ( p ){
