@@ -1,38 +1,104 @@
 var looksInfo = {
-
-	"l1" : "1.,2.,5.,4.,10,33,21",
-	"l2" : "24,26,28,6.,16,23,22,20",
-	"l3" : "15,17,7.,31,14,19,25,13,29",
-	"l4" : "11,39,08,18,37",
-	"l5" : "9.,3.,32",
-	"l6" : "12,34,35,38,40,42,43",
-	"l7" : "23,30,36,41,44,45"
+	"1" : "l1",
+	"2" : "l1",
+	"5" : "l1",
+	"4" : "l1",
+	"10" : "l1",
+	"33" : "l1",
+	"21" : "l1",
+	"24" : "l2",
+	"26" : "l2",
+	"28" : "l2",
+	"6" : "l2",
+	"16" : "l2",
+	"23" : "l2",
+	"22" : "l2",
+	"20" : "l2",
+	"15" : "l3",
+	"17" : "l3",
+	"7" : "l3",
+	"31" : "l3",
+	"14" : "l3",
+	"19" : "l3",
+	"25" : "l3",
+	"13" : "l3",
+	"29" : "l3",
+	"11" : "l4",
+	"39" : "l4",
+	"8" : "l4",
+	"18" : "l4",
+	"37" : "l4",
+	"9" : "l5",
+	"3" : "l5",
+	"32" : "l5",
+	"12" : "l6",
+	"34" : "l6",
+	"35" : "l6",
+	"38" : "l6",
+	"40" : "l6",
+	"42" : "l6",
+	"43" : "l6",
+	"23" : "l7",
+	"30" : "l7",
+	"36" : "l7",
+	"41" : "l7",
+	"44" : "l7",
+	"45" : "l7"
 }
 
+var mapping_data = {
+	"l1" : "以女性浪漫和清新田园风情为灵感基调，沿袭毫无刻意的法式时装精神，Chloé打造出新一季刚柔并济的活力女性形象。",
+	"l2" : "散发女性意味的紫罗兰、米黄、矢车菊蓝与深色海军蓝、象牙白以及棕红色无间交织，在对比间赋予该系列时装灵动质感。",
+	"l3" : "立体触感的面料贯穿始终，从柔软的格纹绒呢、挺阔的麦尔登呢、复古灯芯绒到浓密羊毛、精致暗色蟒蛇皮，以及浪漫的真丝绉和细腻蕾丝。",
+	"l4" : "微微耸起的肩部细节，立体的剪裁，外套单品勾勒出新一季的加长廓形。加宽的前襟翻领设计、军装元素则平衡了蕾丝点缀丝绸释放出的女性柔美。",
+	"l5" : "短小精干的马甲为飘逸的低领剪裁衬衫注入了率性和洒脱，与之搭配的花呢短裤与长裙更显时髦精致。",
+	"l6" : "极富层次感的绉纱长裙与长裤周身四处以垂坠的棉绳点缀。",
+	"l7" : "色彩鲜艳的拼接图案装点了细羊毛针织衫、丝绒面料上的精致提花则如冬季花园一般，散发令人难以抗拒的诱惑。"
+}
 
 function returnfun(a){
-	if(looksInfo.l1.indexOf(a) > 0){
-		return "以女性浪漫和清新田园风情为灵感基调，沿袭毫无刻意的法式时装精神，Chloé打造出新一季刚柔并济的活力女性形象。"
-	}
-	if(looksInfo.l2.indexOf(a) > 0){
-		return "散发女性意味的紫罗兰、米黄、矢车菊蓝与深色海军蓝、象牙白以及棕红色无间交织，在对比间赋予该系列时装灵动质感。"
-	}
-	if(looksInfo.l3.indexOf(a) > 0){
-		return "立体触感的面料贯穿始终，从柔软的格纹绒呢、挺阔的麦尔登呢、复古灯芯绒到浓密羊毛、精致暗色蟒蛇皮，以及浪漫的真丝绉和细腻蕾丝。"
-	}
-	if(looksInfo.l4.indexOf(a) > 0){
-		return "微微耸起的肩部细节，立体的剪裁，外套单品勾勒出新一季的加长廓形。加宽的前襟翻领设计、军装元素则平衡了蕾丝点缀丝绸释放出的女性柔美。"
-	}
-	if(looksInfo.l5.indexOf(a) > 0){
-		return "短小精干的马甲为飘逸的低领剪裁衬衫注入了率性和洒脱，与之搭配的花呢短裤与长裙更显时髦精致。"
-	}
-	if(looksInfo.l6.indexOf(a) > 0){
-		return "极富层次感的绉纱长裙与长裤周身四处以垂坠的棉绳点缀。"
-	}
-	if(looksInfo.l7.indexOf(a) > 0){
-		return "色彩鲜艳的拼接图案装点了细羊毛针织衫、丝绒面料上的精致提花则如冬季花园一般，散发令人难以抗拒的诱惑。"
-	}
+	var key = looksInfo[a];
+	return mapping_data[key];
 }
+
+
+
+
+var modelname = ["zhou dongyu","aa","bb"]
+
+
+
+
+
+
+
+
+// function returnfun(a){
+// 	a < 10?a=a + ".":a=a;
+// 	console.log(a)
+// 	if(looksInfo.l1.indexOf(a) > 0){
+// 		return "以女性浪漫和清新田园风情为灵感基调，沿袭毫无刻意的法式时装精神，Chloé打造出新一季刚柔并济的活力女性形象。"
+// 	}
+// 	if(looksInfo.l2.indexOf(a) > 0){
+// 		return "散发女性意味的紫罗兰、米黄、矢车菊蓝与深色海军蓝、象牙白以及棕红色无间交织，在对比间赋予该系列时装灵动质感。"
+// 	}
+// 	if(looksInfo.l3.indexOf(a) > 0){
+// 		return "立体触感的面料贯穿始终，从柔软的格纹绒呢、挺阔的麦尔登呢、复古灯芯绒到浓密羊毛、精致暗色蟒蛇皮，以及浪漫的真丝绉和细腻蕾丝。"
+// 	}
+// 	if(looksInfo.l4.indexOf(a) > 0){
+// 		return "微微耸起的肩部细节，立体的剪裁，外套单品勾勒出新一季的加长廓形。加宽的前襟翻领设计、军装元素则平衡了蕾丝点缀丝绸释放出的女性柔美。"
+// 	}
+// 	if(looksInfo.l5.indexOf(a) > 0){
+// 	
+//return "短小精干的马甲为飘逸的低领剪裁衬衫注入了率性和洒脱，与之搭配的花呢短裤与长裙更显时髦精致。"
+// 	}
+// 	if(looksInfo.l6.indexOf(a) > 0){
+// 		return "极富层次感的绉纱长裙与长裤周身四处以垂坠的棉绳点缀。"
+// 	}
+// 	if(looksInfo.l7.indexOf(a) > 0){
+// 		return "色彩鲜艳的拼接图案装点了细羊毛针织衫、丝绒面料上的精致提花则如冬季花园一般，散发令人难以抗拒的诱惑。"
+// 	}
+// }
 
 
 
@@ -266,6 +332,7 @@ var detailsHtml = "";
 var guestsHtml = "";
 var looksHtml = "";
 var looknum = 0;
+var guestnum = 0;
 function accfun(){
 
 	$.map(LoadingImg,function(key,n){
@@ -276,14 +343,14 @@ function accfun(){
 		}else if(key.indexOf("details")>0){
 			detailsHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("guests")>0){
-			guestsHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
+			guestnum++;
+			guestsHtml+="<div class='slide'><span class='model_name'>'"+modelname[guestnum]+"'</span><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("looks")>0){
 			looknum++;
-			looksHtml+="<div class='slide'><div class='magnifier-text'><p>"+returnfun(looknum)+"</p></div><span class='magnifier'><img src='../images/magnifier.png' style='width:30%' /></span><img src='"+key+"' style='width:109%' /></div>"
+			looksHtml+="<div class='slide'><div class='magnifier-text'><p>"+returnfun(looknum)+"</p></div><span class='magnifier' title='"+looknum+"'><img src='../images/magnifier.png' style='width:30%' /></span><img src='"+key+"' style='width:109%' /></div>"
 		}
 	})
-	
-
+   
 	$("#details").empty().html(detailsHtml);
 	$("#acc").empty().html(accHtml);
 	$("#backstage").empty().html(backstageHtml);
@@ -291,8 +358,8 @@ function accfun(){
 	$("#looks").empty().html(looksHtml);
 
 	$('#fullpage').fullpage({
-			sectionsColor: ['#000', '#000', '#000', '#000', '#000','#fff'],
-			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage'],    // 'lastPage'
+			sectionsColor: ['#000', '#000', '#000', '#000', '#000'],
+			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],    // 'lastPage', '6thPage'
 			menu: '#menu',
 			scrollingSpeed: 600,
 			//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
