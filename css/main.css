@@ -320,7 +320,7 @@ p{
 
 
 #video .fp-controlArrow{
-	top:39%;
+	top:20%;
 }
 
 #video .fp-controlArrow.fp-next{
@@ -350,7 +350,7 @@ p{
 #video .fp-slidesNav{
 	display: inline-block;
 	bottom:auto;
-	top:20em;
+	top:22.5em;
 }
 
 
@@ -418,6 +418,10 @@ p{
 
 
 
+
+.video-slide{
+	position: relative;
+}
 
 
 
