@@ -280,7 +280,6 @@ p{
 #video dl{
 	width:86%;
 	display: inline-block;
-	margin: -15em 0 0 0;
 }
 
 #video dt{
@@ -321,7 +320,7 @@ p{
 
 
 #video .fp-controlArrow{
-	top:20%;
+	/*top:20%;*/
 }
 
 #video .fp-controlArrow.fp-next{
@@ -369,8 +368,9 @@ p{
 .logo{
 	width: 100%;
 	text-align: center;
-	margin: 2em 0;
-	display: inline-block;
+	position: absolute;
+	left: 0;
+	top:2em;
 }
 
 
