@@ -299,9 +299,9 @@ p{
 }
 
 #video dd{
-	padding:2em 0;
 	text-align: left;
-	color: #c79c60
+	color: #c79c60;
+	margin:2em 0 0 0;
 }
 
 
@@ -478,10 +478,10 @@ p{
 }
 
 nav{
-	padding: 1em 0;
 	display: inline-block;
 	width: 100%;
 	float: left;
+	padding: 1em 0 0 0;
 }
 .position li{
 	width: 6px;
