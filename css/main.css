@@ -66,6 +66,14 @@ h1{
 p{
 	font-size: 2em;
 }
+
+
+/* 阻止旋转屏幕时自动调整字体大小 */
+* { -webkit-text-size-adjust: none;}
+* { font-weight: normal; font-style: normal;}
+*, *:after, *:before { -webkit-box-sizing: border-box;  -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0;}
+
+
 .intro p{
 	width: 50%;
 	margin: 0 auto;
