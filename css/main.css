@@ -235,7 +235,6 @@ p{
 	height:100%;
 }
 
-
 #loading{
 	width: 100%;
 	height: 100%;
@@ -305,6 +304,9 @@ p{
 	color: #c79c60
 }
 
+.fp-tableCell{
+	vertical-align: top;
+}
 
 #video .fp-tableCell{
 	vertical-align: top;
