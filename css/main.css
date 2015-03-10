@@ -455,7 +455,15 @@ p{
 
 /* 6 */
 @media only screen and (min-height: 600px) and (max-height:605px) {
-
+	#video dl{
+	 	top:8em;
+	 }
+	 #video .fp-slidesNav{
+	 	top:22em;
+	 }
+	 #video dd{
+	 	padding: 4em 0;
+	 }
 }
 
 
