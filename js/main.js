@@ -247,7 +247,7 @@ function accfun(){
 		}else if(key.indexOf("details")>0){
 			detailsHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("guests")>0){
-			guestsHtml+="<div class='slide'><img src='"+key+"' style='height:100%' /></div>"
+			guestsHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}else if(key.indexOf("looks")>0){
 			looksHtml+="<div class='slide'><img src='"+key+"' style='width:109%' /></div>"
 		}
