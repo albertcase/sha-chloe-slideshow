@@ -226,6 +226,7 @@ p{
 .slide{
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 }
 
 
@@ -467,7 +468,7 @@ p{
 /* 6 */
 @media only screen and (min-height: 600px) and (max-height:605px) {
 	#video .fp-controlArrow{
-		top:38%;
+		top:39%;
 	}
 	#video dl{
 	 	top:8em;
@@ -486,7 +487,7 @@ p{
 /* 6 plus */
 @media only screen and (min-height: 605px) {
 	#video .fp-controlArrow{
-		top:38%;
+		top:39%;
 	}
 	 #video dl{
 	 	top:8em;
