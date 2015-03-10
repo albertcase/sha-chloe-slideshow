@@ -182,7 +182,6 @@ p{
 	transition: transform .6s;
 	background: rgba(255,255,255,0.25);
 
-	opacity: 0;
 	width: 100%;
 	float: left;
 	position: relative;

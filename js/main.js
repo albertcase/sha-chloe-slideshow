@@ -3,11 +3,8 @@ window.location.hash= '';
 
 	$(".burger").click(function(event){
 		$("#mask").fadeIn();
-		$(".burger").animate({"left":"-100px"},function(){
+		$(".burger").animate({"left":"-100px"},100,function(){
 			$(".menu").show();
-			$(".menu li").each(function(){
-				$(this).stop().animate({"opacity" : 1});
-			})
 		});
 		event.stopPropagation();
 	})
@@ -15,7 +12,7 @@ window.location.hash= '';
 
 
     $(".magnifier").click(function(event){
-    	$(this).stop().animate({"right":"4em","opacity":0},600,function(){
+    	$(this).stop().animate({"right":"4em","opacity":0},100,function(){
     		$(this).siblings(".magnifier-text").slideDown();
     	})
     	
@@ -33,14 +30,8 @@ document.addEventListener('touchmove' , function (ev){
 
 
 function reduction_fun(){
-	$(".menu li").each(function(){
-		$(this).stop().animate({opacity : 0},600,function(){
-			// $(this).addClass("hover");
-			// $(".menu li").removeClass("hover");
-			$(".menu,#mask").hide();
-			$(".burger").animate({"left":"1em"});
-		});
-	})
+	$(".menu,#mask").hide();
+	$(".burger").animate({"left":"1em"});
 
 	$(".magnifier-text").slideUp();
     $(".magnifier").stop().animate({"right":"5em","opacity":1});
