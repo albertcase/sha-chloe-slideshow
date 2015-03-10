@@ -64,8 +64,39 @@ function returnfun(a){
 
 
 
-var modelname = ["Lorde","Daniel de La Falaise et sa femme","Ming Xi"]
-
+var modelname = [
+"",
+"Lorde",
+"Daniel de La Falaise et sa femme",
+"Ming Xi",
+"Poppy Delevigne",
+"Chiara Ferrani",
+"Mimi Xu",
+"Helena Bordon",
+"Langley Fox Hemingway",
+"Anaïs Demoustier",
+"Sonia Sieff",
+"Sofia Sanchez de Betak",
+"Elena Perminova",
+"Leigh Lezark",
+"Kristina Bazan",
+"Marina Hands",
+"Alexia Niedzelski <br /> Elizabeth Von Guttnam",
+"Kelly Rowland",
+"Vashtie Kola",
+"Zhou Dongyu",
+"Tina Leug",
+"#chloéGIRLS",
+"#chloéGIRLS",
+"Olivia Palermo <br /> Johanns Huebl",
+"Kelly Rowland <br /> Christine And The Queens",
+"Christine And The Queens",
+"Aymeline Valade",
+"Kelly Rowland <br /> Clare Waight Keller",
+"Clare Waight Keller <br /> Christine And The Queens",
+"Lorde & Clare Waight Keller",
+"Christine And The Queens <br /> Lorde",
+"Dree Hemingway <br /> Langley Fox Hemingway"];
 
 
 

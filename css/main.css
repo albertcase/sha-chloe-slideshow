@@ -557,5 +557,16 @@ nav{
 	position: absolute;
 	left: 0;
 	bottom:6em;
+	font-family: "genathRegular";
 }
+
+@font-face{
+	font-family: "genathRegular";
+	src:url("../font/Genath-Regular.otf");
+}
+
+
+
+
+
 
