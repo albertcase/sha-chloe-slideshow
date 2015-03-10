@@ -209,7 +209,7 @@ LoadingImg.push('upload/guests/guest31.jpg');
 
 
 
-if(!window.location.hash){
+// if(!window.location.hash){
 	LoadFn(LoadingImg , function (){
 		setTimeout( function (){
 			$('#loading').fadeOut();
@@ -220,10 +220,10 @@ if(!window.location.hash){
 		$('.loading-mask').css({"width":p+"%"});
 		//$('.loading-mask').html('<br />' + p + '%')
 	});
-}else{
-	$('#loading').hide();
-	accfun();
-}
+// }else{
+// 	$('#loading').hide();
+// 	accfun();
+// }
 
 
 
