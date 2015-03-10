@@ -64,7 +64,7 @@ function returnfun(a){
 
 
 
-var modelname = ["zhou dongyu","aa","bb"]
+var modelname = ["Lorde","Daniel de La Falaise et sa femme","Ming Xi"]
 
 
 
