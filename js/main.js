@@ -241,15 +241,15 @@ function accfun(){
 
 	$.map(LoadingImg,function(key){
 		if(key.indexOf("acc")>0){
-			accHtml+="<div class='slide'><img src='"+key+"' style='width:100%' /></div>"
+			accHtml+="<div class='slide'><img src='"+key+"' style='width:106%' /></div>"
 		}else if(key.indexOf("backstage")>0){
-			backstageHtml+="<div class='slide'><img src='"+key+"' style='width:100%' /></div>"
+			backstageHtml+="<div class='slide'><img src='"+key+"' style='width:106%' /></div>"
 		}else if(key.indexOf("details")>0){
-			detailsHtml+="<div class='slide'><img src='"+key+"' style='width:100%' /></div>"
+			detailsHtml+="<div class='slide'><img src='"+key+"' style='width:106%' /></div>"
 		}else if(key.indexOf("guests")>0){
 			guestsHtml+="<div class='slide'><img src='"+key+"' style='height:100%' /></div>"
 		}else if(key.indexOf("looks")>0){
-			looksHtml+="<div class='slide'><img src='"+key+"' style='width:100%' /></div>"
+			looksHtml+="<div class='slide'><img src='"+key+"' style='width:106%' /></div>"
 		}
 	})
 	
