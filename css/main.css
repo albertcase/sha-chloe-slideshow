@@ -366,18 +366,17 @@ p{
 
 
 .logo{
-	position: absolute;
 	width: 100%;
-	left: 0;
-	top:2.5em;
 	text-align: center;
+	margin: 89px 0 90px 0;
+	display: inline-block;
 }
 
 
 
 
 .arr{
-  width:40px;
+  width:30px;
   height:50px;
   background:url("../images/arr.png") no-repeat center;
   background-size: 100% auto;
@@ -385,7 +384,7 @@ p{
   left:50%;
   z-index: 999;
   bottom:1em;
-  margin: 0 0 0 -20px
+  margin: 0 0 0 -15px
 }
 
 
