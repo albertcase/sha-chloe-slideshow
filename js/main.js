@@ -68,7 +68,7 @@ function reduction_fun(){
 	$(".burger").animate({"left":"1em"});
 
 	$(".magnifier-text").hide();
-    $(".magnifier").stop().animate({"right":"5em","opacity":1});
+    $(".magnifier").stop().animate({"right":"3em","opacity":1});
 }
 
 
