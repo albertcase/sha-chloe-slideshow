@@ -295,7 +295,7 @@ p{
 	border:2px #c89e63 solid;
 	display: inline-block;
 	position: relative;
-	padding: 1em 0;
+	margin: 1em 0;
 }
 
 #video dd{
@@ -478,7 +478,7 @@ p{
 }
 
 nav{
-	margin: 20px 0 0 0;
+	padding: 2em 0;
 	display: inline-block;
 }
 .position li{
