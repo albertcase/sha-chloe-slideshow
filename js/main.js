@@ -286,20 +286,8 @@ function swipeFun(){
       auto: false, //设置自动切换时间，单位毫秒
       continuous: true,
       disableScroll: false,
-      stopPropagation: false,
-      callback: function(index, elem) {
-      var i = bullets.length;
-      while (i--) {
-        bullets[i].className = ' ';
-      }
-      bullets[index].className = 'on';
-        $(".photoInfo").removeClass("hover").css("display","none");
-        $(".photoInfo").eq(index).addClass("hover").css("display","inline-block");
-      },
-        transitionEnd: function(index, elem) {}
-      });
-      var bullets = document.getElementById('position').getElementsByTagName('li');
-
+      stopPropagation: false
+      })
 }
 
 
