@@ -447,6 +447,9 @@ p{
 
 /* 5s */
 @media only screen and (min-height: 500px) and (max-height:560px) {
+	#video .fp-controlArrow{
+		top:20%;
+	}
 	#video dl{
 	 	top:8em;
 	 }
@@ -463,6 +466,9 @@ p{
 
 /* 6 */
 @media only screen and (min-height: 600px) and (max-height:605px) {
+	#video .fp-controlArrow{
+		top:20%;
+	}
 	#video dl{
 	 	top:8em;
 	 }
@@ -479,6 +485,9 @@ p{
 
 /* 6 plus */
 @media only screen and (min-height: 605px) {
+	#video .fp-controlArrow{
+		top:20%;
+	}
 	 #video dl{
 	 	top:8em;
 	 }
