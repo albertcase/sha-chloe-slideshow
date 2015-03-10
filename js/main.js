@@ -1,5 +1,6 @@
 
 	$(".burger").click(function(event){
+		$("#mask").fadeIn();
 		$(".burger").animate({"left":"-100px"},function(){
 			$(".menu").show();
 			$(".menu li").each(function(){
@@ -34,7 +35,7 @@ function reduction_fun(){
 		$(this).animate({opacity : 0},600,function(){
 			// $(this).addClass("hover");
 			// $(".menu li").removeClass("hover");
-			$(".menu").hide();
+			$(".menu,#mask").hide();
 			$(".burger").animate({"left":"1em"});
 		});
 	})
