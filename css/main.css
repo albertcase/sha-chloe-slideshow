@@ -403,7 +403,7 @@ p{
   background-size: 100% auto;
   position:fixed;
   left:50%;
-  z-index: 999;
+  z-index: 12;
   bottom:1em;
   margin: 0 0 0 -15px;
   display: none;
@@ -520,6 +520,19 @@ nav{
     left: 0;
 }
 
+
+/* 设备竖屏时调用该段css代码 */
+@media all and (orientation : portrait){
+	#heng{
+		display: none;
+	}
+}
+/* 设备横屏时调用该段css代码 */
+@media all and (orientation : landscape){
+	#heng{
+		display: inline-block;
+	}
+}
 
 
 
