@@ -94,7 +94,7 @@ var modelname = [
 "Aymeline Valade",
 "Kelly Rowland <br /> Clare Waight Keller",
 "Clare Waight Keller <br /> Christine And The Queens",
-"Lorde & Clare Waight Keller",
+"Lorde <br /> Clare Waight Keller",
 "Christine And The Queens <br /> Lorde",
 "Dree Hemingway <br /> Langley Fox Hemingway"];
 
