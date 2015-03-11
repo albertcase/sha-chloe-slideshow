@@ -89,16 +89,16 @@ var modelname = [
 "Kelly Rowland",
 "Vashtie",
 "Tina Leung",
-"#chloéGIRLS",
-"#chloéGIRLS",
 "Kelly Rowland <br />Christine & the Queens",
 "Christine & The Queens",
 "Aymeline Valade",
-"Kelly Rowland <br /> Clare Waight Keller",
 "Clare Waight Keller <br />Christine & The Queens",
 "Lorde <br /> Clare Waight Keller",
 "Christine & The Queens <br />Lorde",
-"Langley Fox <br />Dree Hemingway"];
+"Langley Fox <br />Dree Hemingway",
+"#chloéGIRLS",
+"#chloéGIRLS",
+"Kelly Rowland <br /> Clare Waight Keller"];
 
 
 
