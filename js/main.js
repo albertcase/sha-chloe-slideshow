@@ -93,7 +93,6 @@ var modelname = [
 "Christine & The Queens",
 "Aymeline Valade",
 "Clare Waight Keller <br />Christine & The Queens",
-"Lorde <br /> Clare Waight Keller",
 "Christine & The Queens <br />Lorde",
 "Langley Fox <br />Dree Hemingway",
 "#chloéGIRLS",
