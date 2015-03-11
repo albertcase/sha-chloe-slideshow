@@ -421,7 +421,8 @@ function accfun(){
 			scrollingSpeed: 600,
 			//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
 			css3: true,
-			slidesNavigation: false
+			slidesNavigation: false,
+			continuousVertical: true
 	});
 
 	$("#fullpage").animate({"opacity":1},600);
