@@ -68,9 +68,12 @@ var modelname = [
 "",
 "Lorde",
 "Molly <br />Daniel de la Falaise",
-"Ming Xi",
+"Zhou Dongyu",
+"Zhou Dongyu<br />Clare Waight Keller",
 "Poppy Delevigne",
+"Ming Xi",
 "Chiara Ferragni",
+"Leaf Greener",
 "Mimi Xu",
 "Helena Bordon",
 "Langley Fox",
@@ -84,7 +87,6 @@ var modelname = [
 "Alexia Niedzielski <br />Elizabeth von Guttman",
 "Kelly Rowland",
 "Vashtie",
-"Zhou Dongyu",
 "Tina Leung",
 "#chloéGIRLS",
 "#chloéGIRLS",
@@ -96,8 +98,7 @@ var modelname = [
 "Clare Waight Keller <br />Christine & The Queens",
 "Lorde <br /> Clare Waight Keller",
 "Christine & The Queens <br />Lorde",
-"Langley Fox <br />Dree Hemingway",
-"Leaf Greener"];
+"Langley Fox <br />Dree Hemingway"];
 
 
 
