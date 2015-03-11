@@ -90,7 +90,7 @@ var modelname = [
 "#chloéGIRLS",
 "Olivia Palermo <br /> Johanns Huebl",
 "Kelly Rowland <br />Christine & the Queens",
-"Christine <br /> The Queens",
+"Christine & The Queens",
 "Aymeline Valade",
 "Kelly Rowland <br /> Clare Waight Keller",
 "Clare Waight Keller <br />Christine & The Queens",
