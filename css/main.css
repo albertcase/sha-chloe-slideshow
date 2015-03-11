@@ -260,22 +260,22 @@ p{
 }
 
 .loading-logo{
-	width:260px;
+	width:200px;
 	height: 200px;
 	background: url("../images/logo-mask.png") left center no-repeat;
-	background-size: 260px auto;
+	background-size: 200px auto;
 	display:inline-block;
 	position:absolute;
 	left: 50%;
 	top:50%;
-	margin: -100px 0 0 -130px;
+	margin: -100px 0 0 -100px;
 }
 
 .loading-mask{
 	width:0;
 	height: 200px;
 	background: url("../images/loading.png") left center no-repeat;
-	background-size: 260px auto;
+	background-size: 200px auto;
 	display:inline-block;
 	position:absolute;
 	left: 0;
