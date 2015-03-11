@@ -354,7 +354,7 @@ LoadingImg.push('upload/guests/guest28.jpg');
 LoadingImg.push('upload/guests/guest29.jpg');
 LoadingImg.push('upload/guests/guest30.jpg');
 LoadingImg.push('upload/guests/guest31.jpg');
-//LoadingImg.push('upload/guests/guest32.jpg');
+LoadingImg.push('upload/guests/guest32.jpg');
 //LoadingImg.push('upload/guests/guest33.jpg');
 
 
