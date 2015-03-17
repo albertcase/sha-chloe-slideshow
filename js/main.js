@@ -417,7 +417,7 @@ function accfun(){
 
 	$('#fullpage').fullpage({
 			sectionsColor: ['#000', '#000', '#000', '#000', '#000'],
-			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],    // 'lastPage', '6thPage'
+			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage'],    // 'lastPage', '6thPage'
 			menu: '#menu',
 			scrollingSpeed: 600,
 			//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
