@@ -153,10 +153,10 @@ window.location.hash= '';
 
 	
 
-document.addEventListener('touchmove' , function (ev){
-	ev.preventDefault();
-	return false;
-} , false)
+// document.addEventListener('touchmove' , function (ev){
+// 	ev.preventDefault();
+// 	return false;
+// } , false)
 
 
 
